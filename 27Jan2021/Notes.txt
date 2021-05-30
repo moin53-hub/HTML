@@ -1,0 +1,9 @@
+Colors :
+CSS provides different types of colors (140 + direct colors)
+in web sites
+
+Colors pyschology:
+
+* colors pyschology in css = google
+
+
