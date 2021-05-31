@@ -4,6 +4,67 @@ in web sites
 
 Colors pyschology:
 
-* colors pyschology in css = google
+* colors pyschology in css = google 
+* Design which is prototype which is template
+* direct color "rgb"   color:rgb
+* this is color will 0 to 255 range
+* and whch change is transpaency "a" rgba/
+* Html colors picker = google w3 schools we easy to use
+* add used for the background image
+*** Docs Model interview q
+* css background exercise
+* css backgrounds = google
+* <html>
+    <head>
+        <style>
+            body{
+                background :url("images.jpg") no-repeat fixed top right;
+        </style>
 
-
+    </head>
+    <body>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+        <h1>This is a header </h1>
+    </body>
+</html>
+S
