@@ -1,0 +1,48 @@
+Borders :
+
+Borders are used to provide extra spaces to avoid the collision of
+the different UI componentss.
+
+Borders can also be used to highlight  the contentes
+
+css provides different types of Borders
+
+<html>
+    <head>
+        <style>
+           /* h1 {
+                border-style: solid;
+                border-color: blue;
+                border-width: 4px;
+                color:darkmagenta;
+            }*/
+           /* h1 {
+                border-top-style:solid;
+                border-left-style: groove;
+                border-bottom-style: solid;
+                border-right-style: double;
+                border-top-color: darkmagenta;
+                border-bottom-color: red;
+                border-left-color: blue;
+                border-bottom-width: 10px;
+            }*/
+            /*h1{
+                border-width: 10px;
+                border-color: blue;
+                border-style: solid;
+            }*/
+            h1{
+                border:10px groove red
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Note : W3Schools is the basic structure of Web Development </h1>
+    </body>
+</html>
+
+Margins :
+
+Margins is used to align the individual ui componentss 
+according to the requirement 
