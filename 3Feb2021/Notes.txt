@@ -1,0 +1,109 @@
+There are 2 of variables
+
+1) Local Variables
+If a variable is created inside a functionn then it is
+known as local variable.
+
+ Key Points:
+* The scope of a local var is with in the function i.e
+  those variables can be acccessed only inside the functiion.
+* other func cannot access local variables
+* local variables reside in local scope
+function f1(){
+    var a=100;  //Local Variables
+    var b = 200;
+    console.log(a);
+    a = 200;
+    console.log(a);
+    console.log(b);
+    
+}
+f1()
+* 
+
+2)Gloabal variables:
+if a variable created outside of a function then it is known as
+global variable
+/*const { compileFunction } = require("vm");
+
+var a = 100;  //Global Variables
+var b = 200;
+
+/*console.log(a); //100
+console.log(b);  //200
+
+function f1() {
+    console.log(a); //  eferring global variables of a  //100
+    console.log(b); //   eferring global variables of b  //200
+    
+    a = 10;
+    b = 0;
+    
+}
+f1();
+console.log(a);
+console.log(b);*/
+
+/*function f1() {
+    a = 10;
+    b = 0;
+}
+
+function f2() {
+    console.log(a);  //10   
+    console.log(b);  //0
+}
+f1();   
+f2();*/
+
+var a = 100;  //global Variables
+var b = 200;
+
+function f1() {
+    a= 30; // loval variables
+    b=90;
+    console.log(a);//30
+    console.log(b);//90
+    a= 0;
+    b=0;
+}
+f1();
+console.log(a);//0
+console.log(b);//0
+
+* problem Statement:
+* implement like and dislike features using js.
+*  if like and dislike icon to search on google html like and diislike
+ 					
+* <html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <i onclick="like()" class="fa fa-thumbs-up" style="color: grey;"></i><span id="likecount">0</span>
+        <i onclick="dislike()" class="fa fa-thumbs-down" style="color: grey;"></i><span id="dislikecount">0</span>
+
+        <script>
+             var l = 0; 
+             var d=0;
+
+            function like(){
+                l++;
+                console.log("likes",l);
+                document.getElementById("likecount").innerHTML=l;
+
+            }
+
+            function dislike() {    
+                d++;
+                console.log("dislikes",d);
+                document.getElementById("dislikecount").innerHTML=d;
+            }
+
+        </script>
+
+    </body>
+</html>
+
+* task: when click button like it turns blue color and dislike returns initial

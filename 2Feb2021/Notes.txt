@@ -1,0 +1,101 @@
+JavaScript:
+
+JS is a JavaScripting, programming language which is used
+to make static web pagess dynamin
+
+Later , JS has been used for multiple puposes such as 
+
+1) client side pragramming 
+2) server side programming
+3) block chain
+4) iot - internet of things
+
+google - samsung smart refrigerator example 
+JavaScript is Development is 10 days
+* brended guy
+* Development for sc looking for company called nesafe for livscript
+* he is marketing guy brended
+* Advantages
+1) goto web dynamic advantage  which is cl and srside
+2) its is life 
+3) it will learn within in 10 day light tough
+q) what do u have in applications
+a) web page or app have data only..
+*  data processs and which store in data 
+
+1..Variables
+
+A Variables is an identifier which is used to identify some data
+
+syntax:
+
+var var_name = data;
+
+var age = 
+ 
+ Syntax : 
+var var_name = data;
+
+var adress ="hyderabad"
+
+var name = "ravikumaar"
+
+var city="banglore"
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        
+        <script>
+            
+            var age=20;
+            console.log(age);
+            var user="shaikmoin";
+            console.log(user);
+            var name = "Digital-Lync";
+            console.log(name);
+        </script>
+
+
+    </body>
+</html>
+on node execution:
+var a = 1000;
+console.log(a);
+
+var name = "Digitallync";
+0console.log(name);
+!)
+Login page:
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            Username:<input type="text" id="username">
+            Password:<input type="password" id="password">
+            <button onclick="Login()">Submit</button>
+        </form>
+        <script>
+            
+            function Login(){
+                //alert("Login called!!!!!");
+                uname=document.getElementById("username").value;
+                pword=document.getElementById("password").value;
+                alert(uname);
+                alert(pword);
+            }
+        </script>
+    </body>
+</html>
+
+js is weekly data type
+
+Task:
+local variables and global variiables on w3schools just check on google
+
+
+
