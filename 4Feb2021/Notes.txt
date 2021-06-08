@@ -1,0 +1,152 @@
+task:
+function f1() {
+  console.lg(A);
+   var a = 100;
+}
+f1();
+
+output:
+
+variable hoisting:
+* taking the variables to the top position in the form of 
+declarationn is called ass variable hoisting
+
+*  it is a default operation done in js
+* ex :
+function f1() {
+   var a,b; undefined
+   console.log(a); undefined
+   a = 100;
+   b = 200;
+    console.log(b); // 20
+ * /*function f1() {
+    console.log(a);
+    var a = 10;
+}
+f1();*/
+
+
+
+
+
+/*function f1() {
+    var a,b;
+    console.log(a);
+    a=100;
+    b=20;
+    console.log(b);
+}
+f1();*/
+
+/*console.log(a);
+var a = 900;
+console.log(a);
+var b = 100;
+console.log(b);
+
+
+function f1() {
+    console.log(a);
+    var a = 0;
+    console.log(a);
+}
+f1();
+
+Data types:
+* a Datatype is a keyword which is used to specify the type data
+  is being used by a variable
+
+* in js we dont specify datatypes to a variable bcls
+ js is a weakly typed language
+* var a = 20;
+
+* there are 5 types of datatypes in jjs
+ * number,boolean,string,array, and obect
+* typeof is a operator
+
+
+var a = 10;  //numbere data type
+console.log(a);
+console.log(typeof a);
+var rating=4.5;
+console.log(typeof rating);
+
+//boolean data type
+var isDone=false;
+console.log(isDone);
+//if isDone=1 then number
+console.log(typeof isDone);
+
+//string data type
+var str="hello!";
+console.log(str);
+console.log(typeof str);
+console.log(str.toUpperCase());
+
+//array data type
+var arr=[100,200,300,400,500];
+console.log(arr);
+console.log(arr[1]);
+console.log(arr[4]);
+//console.log(arr[5]);
+arr.push(600);
+console.log(arr);
+
+// object data type
+var obj={
+    name:"shaikmoin",
+    adress:"hyderabad",
+    pincode:500001,
+    salary:9000.10,
+    technologies:["javascript","dotnet","python"],
+    company:{
+        name:"abc",
+        location:"hyd"
+    }
+}
+console.log(obj);
+console.log(obj.name);
+console.log(obj.company);
+console.log(obj.company.location);
+* 
+
+* Task:
+* ps: create an object for banking account .
+Problem statement:
+* create a register page with the following fields such as 
+username.password mobile num emailid
+
+* once the user submits the form take the details in jscode 
+store them in an object and print them on console
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            Enter username:<input type="text" id="username"><br><br>
+            Enter password:<input type="password" id="password"><br><br>
+            mobile number:<input type="text" id="mble num"><br><br>
+            email id:<input type="text" id="email id"><br><br>
+            <button onclick="register()">Submit</button>
+        </form>
+        <script>
+            function register(){
+                event.preventDefault();
+                var username_value=document.getElementById("username").value;
+                var password_value=document.getElementById("password").value;
+                var mobile_value=document.getElementById("mble num").value;
+                var email_value=document.getElementById("email id").value;
+
+                var user={
+                    username:username_value,
+                    password:password_value,
+                    mobile:mobile_value,
+                    email:email_value,
+                }
+                console.log(user);
+            }
+
+        </script>
+    </body>
+</html>
