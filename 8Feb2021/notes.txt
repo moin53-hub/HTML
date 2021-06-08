@@ -1,0 +1,110 @@
+
+OPERATORS:
+DEF: JavaScript operatos are symbols which are used to assign values compare values perform arithmethic operators and more
+the variables (operations) are called operands
+The operation (to be performed between the two operands) is defined by an operator.
+types of operartors
+arithmeric operators
+ex:=,-,*,/,%,++,--
+
+//arithmetic operators:
+var a=10,b=20,c= 90,d="10",e="100s";
+/*console.log(a+b);
+console.log(a-b);     //if we get string on that is as its
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);*/
+
+comparison operators
+onsole.log(a++);// print 10 10+1 -> 11 -> a=11
+console.log(++a);// 11 + 1 -> a=12
+console.log(a--); // 12-1 -> a=11
+console.log(--a);//11-1 -> a=10 print 10*/
+
+
+logicall (or relational) operators
+
+/*console.log(d+a+b+c); //10209010
+
+//e=d+a+b+c;
+//console.log(typeof e);
+console.log(a+b+d+c);//301090
+console.log(d+a+b+c);//10102090
+console.log(a+b+d+c);//301090
+console.log((d+a)+b+c);//10102090
+console.log((a+b)+d+c);//301090
+console.log(a-d);//0
+console.log(a*d);//100
+console.log(a+e);//10100s
+console.log(a-e);// nan(not a number)*/
+
+assignment operators
+
+
+condditional or ternary operators
+string operators
+type operators
+bitwise operators
+
+
+comparison operators:
+>,<,>=,<=,==,?:
+
+
+*problem statement:
+create a password field check if the password length is greater than or equal to 8.
+
+if it less than 8 print a message that password should be atleast 8 chars
+<html>
+    <head>
+
+    </head>
+    <body>
+        password:<input type="password" id="password">
+        <button onclick="validatePassword()">Submit</button>
+
+        <script>
+            function validatePassword () {
+                event.preventDefault();
+                var password=document.getElementById("password").value;
+                
+                password.length >= 8 ? alert("password is accepted") : alert("password should be atleast 8 char");
+
+            }
+        </script>
+    </body>
+</html>
+
+
+Logical Operators:
+&& , || , ! 
+
+
+
+ps:
+create a login page , check wheather the username and pas entered by the user matches with
+ username == "sai"
+pass == "sai"
+alert("login access") alert("login failure"
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        username:<input type="text" id="username">
+        password:<input type="password" id="password">
+        <button onclick="validate()">Submit</button>
+
+        <script>
+            function validate () {
+                event.preventDefault();
+                var username=document.getElementById("username").value;
+                var password=document.getElementById("password").value;
+                
+                username == "moin" && password == "moin" ? alert(" success" ): alert(" failure");
+
+            }
+        </script>
+    </body>
+</html>
