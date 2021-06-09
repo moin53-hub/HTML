@@ -1,0 +1,162 @@
+09/1feb/2021
+
+typeof operator:
+This operator is used to check the datatype of a variable
+var a = 100;
+console.log(typeof a);
+opt:number
+
+
+
+
+1) instanceof operator
+
+this operator is used to check wheather some object belongs to some fuction 
+constructor or nor
+
+control statements:
+There are 3 types of control statements:
+1) sequential :
+        if , if-else, switch 
+if: if statement is used to check whether a condition is true or not based onn the condition the block conditionn gets executed
+
+syntax:
+if (test-condition){
+// code
+}
+var age = 19;
+
+if (age > 18)
+{
+    console.log("you are eligible to vote");
+}
+
+if-else:
+  if(test-condition) {
+     //code
+}
+else
+{
+  //code
+}
+var age = 18;
+if (age > 18)
+{
+    console.log("you are eligible to vote");
+}
+else
+{
+    console.log("you are not ellibile to vote");
+}
+PS:
+create a forgot passwordd page i.e create an email field and take a dummy email"ravi@gmail.com"
+check if the email entered by the user is matching with dummy email if it is matches the diplay email is correct else display email is incorrecct
+<html>
+    <head>
+
+    </head>
+    <body>
+       <input type="text" placeholder="enter email" id="emailid">
+        <button onclick="checkEmail()">Submit</button>
+    </body>
+    <script>
+        function checkEmail() {
+            event.preventDefault();
+            var emailId=document.getElementById("emailid").value;
+            if(emailId== "shaikmoin632@gmail.com"){
+                alert("email is valid");
+            }
+            else
+            {
+                alert("email is invalid");
+            }
+        }
+
+    </script>
+</html>
+
+
+
+switch:
+when we have more than one choice to be provided , instead of usiing multiple if-statements ,better we can use switch
+
+      swich (choice){
+           case case_value1:code;
+             case case_value2:code;
+                 case case_value3:code;
+                       case case_value4:code;
+               default:code;
+var choice="mech";
+
+switch(choice){
+    case "cse":console.log("you selected cse"); break;
+    case "eee":console.log("you selected eee"); break;
+    case "mech":console.log("you selected mech"); break;
+
+    default:console.log("this course is not available");
+}
+PS:
+create a drop down list that should contains different brands of cars based on the brand display some text
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <form>
+            <select onchange="optionChanged()" id="brand">
+                <option value="BMW">BMW</option>
+                <option value="AuDI">AuDI</option>
+                <option value="BENZ">BENZ</option>
+            </select>
+         </form>
+         <script>
+             function optionChanged(){
+                 event.preventDefault();
+                var brand=document.getElementById("brand").value;
+                switch(brand){
+                    case "BMW" : alert("you have choosen BMW");
+                    case "AuDI" : alert("you have choosen AuDI");
+                    case "BENZ" : alert("you have choosen BENZ");
+                }
+             }                 
+         </script>
+    </body>
+</html>
+
+
+PS :
+create drop down list of grades ,likes A,B,C,D 
+A-you should get 85% above
+B- Between 75% and 84%
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <form>
+            <select onchange="grades()" id="grade">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                
+            </select>
+         </form>
+         <script>
+             function grades(){
+                 event.preventDefault();
+                var grades=document.getElementById("grade").value;
+                switch(grades){
+                    case "A" : alert("you should get above 85%");break;
+                    case "B" : alert("Between 75% and 84%"); break;
+                }
+             }                 
+         </script>
+    </body>
+</html>
+
+
+2) iterative;
+  while, do-while and for 
+3) jump statementsL
+  continuek. break and return
