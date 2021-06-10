@@ -1,0 +1,38 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <ul id="users">
+
+        </ul>
+        <script>
+           
+var users=[
+    {
+        name:"moin",
+        age:20,
+        adress:"Hyd"
+    },
+    {
+        name:"tanveer",
+        age:21,
+        adress:"bgl"
+    },
+    {
+        name:"riyaz",
+        age:22,
+        adress:"wgl"
+    }
+]
+var userList=document.getElementById("users");
+
+var index=0;
+
+while(index<users.length){
+   userList.innerHTML= userList.innerHTML+ "<li>" + users[index].name + "&nbsp;" + users[index].age + "&nbsp;" + users[index].adress + "<li>"
+    index++;
+}
+        </script>
+    </body>
+</html>

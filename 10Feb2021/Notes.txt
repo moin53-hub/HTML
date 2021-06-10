@@ -1,0 +1,127 @@
+
+While :
+while loop is used to iterate a list of items.
+syntax:
+  while(test-condition) {
+      //code
+}
+if the test -condtion is true then control enters into the block and then execute the block of code and this repeat until the test condition becomes false
+
+
+
+
+ 
+
+Ps : print the numbers for 1 to 20
+var i = 1;
+while (i<=20){
+    console.log(i);
+    i++;
+} 
+
+ps: facebook has a list of users, print the users information using while loopl.
+/*
+var users=["moin","tanveer","riyaz","sahoo"];
+index = 0;
+
+while(index < users.length){
+    console.log(users[index]);
+    index++;
+}*/
+
+ps:
+iterate the following array and display name and age individually using while loop
+var users=[
+{
+   name :"moinn"
+},
+var users=[
+{
+   name :"tanveer"
+},
+var users=[
+{
+   name :"riyaz"
+},
+O/P:
+var users=[
+    {
+        name:"moin",
+        age:20
+    },
+    {
+        name:"tanveer",
+        age:21
+    },
+    {
+        name:"riyaz",
+        age:22
+    },
+]
+var index=0;
+while(index<users.length){
+    console.log(users[index].name +"\t"+users[index].age);
+    index++;
+}
+
+PS : we have a list of users that should be displayed on the ui
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            Enter name:<input type="text" id="name"><br><br>
+            Enter age:<input type="text" id="age"><br><br>
+            Enter adress:<input type="text" id="adress"><br><br>
+            <button onclick="addUser()">Add User</button>
+        </form>
+        <ul id="userList">
+
+        </ul>
+
+        <script>
+           
+          var users=[
+    {
+        name:"moin",
+        age:20,
+        adress:"Hyd"
+    },
+    {
+        name:"tanveer",
+        age:21,
+        adress:"bgl"
+    },
+    {
+        name:"riyaz",
+        age:22,
+        adress:"wgl"
+    }
+]
+
+function addUser(){
+    event.preventDefault();
+    var users_name=document.getElementById("name").value;
+    var users_age=document.getElementById("age").value;
+    var users_adress=document.getElementById("adress").value;
+
+    var user={
+        name:users_name,
+        age:users_age,
+        adress:users_adress
+    }
+    users.push(user);
+
+    var userList=document.getElementById('userList');
+    var index=0;
+
+      while(index<users.length){
+          userList.innerHTML= userList.innerHTML+ "<li>" + users[index].name + "&nbsp;" + users[index].age + "&nbsp;" + users[index].adress + "<li>"
+            userList.innerHTML="";
+            index++; 
+        }  
+    }
+    </script>
+    </body>
+</html>
